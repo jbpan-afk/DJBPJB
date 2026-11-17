@@ -1,0 +1,19 @@
+# 构建产物一律不提交（作业 8.3：只交源码）
+build/
+install/
+log/
+*.o
+*.a
+*.so
+
+# CMake 在源目录里留下的缓存（如果有人直接在源码目录 configure 过）
+CMakeCache.txt
+CMakeFiles/
+
+# 编辑器 / 系统垃圾
+.vscode/
+.idea/
+.DS_Store
+
+# ROS 2 的本地日志
+.ros/
